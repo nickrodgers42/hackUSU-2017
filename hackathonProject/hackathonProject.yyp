@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "0d52c142-e3cb-4a10-a4d2-dfcde6d4aa17",
+            "Value": {
+                "id": "76b14036-6ac2-44c8-8ab9-2fc550b805ac",
+                "resourcePath": "sprites\\tileSet_dungeon1\\tileSet_dungeon1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "164c8c8e-acba-489e-95d7-229f14a1b6c7",
             "Value": {
                 "id": "a3d2d435-8070-432f-9675-0185237e2d13",
@@ -119,11 +127,27 @@
             }
         },
         {
+            "Key": "8f2d1be3-ea03-48db-adf1-91b897145b46",
+            "Value": {
+                "id": "7461d8bb-b8a1-4975-bbb5-56f4699ad043",
+                "resourcePath": "tilesets\\tileset0\\tileset0.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "95820774-12bf-44e5-a2a4-3368b42b3f77",
             "Value": {
                 "id": "20012019-e342-4072-addd-e35d22be33e7",
                 "resourcePath": "views\\95820774-12bf-44e5-a2a4-3368b42b3f77.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f9961af-2067-4184-b042-2e522c781d74",
+            "Value": {
+                "id": "80855ba3-5531-495a-971c-584ba8057037",
+                "resourcePath": "tilesets\\tileset1\\tileset1.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -143,11 +167,35 @@
             }
         },
         {
+            "Key": "be59373f-b513-4a2f-9b8a-343ea6ee7f30",
+            "Value": {
+                "id": "df702a35-6155-4c92-b6ff-9c8bc2882705",
+                "resourcePath": "views\\be59373f-b513-4a2f-9b8a-343ea6ee7f30.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c649a4e4-a09d-48e6-8ddd-e3ccdfd0559a",
+            "Value": {
+                "id": "704b4dd2-bca0-4956-8579-5d03d1745b89",
+                "resourcePath": "fonts\\joystix\\joystix.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "15ab0219-17a6-4e9b-8361-b7d3b8f8a730",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "cf4ed5c1-c9dc-49cc-bf3c-3eefd7c28908",
+            "Value": {
+                "id": "b6671faf-3fc8-4323-b833-570aa2f2a9c6",
+                "resourcePath": "views\\cf4ed5c1-c9dc-49cc-bf3c-3eefd7c28908.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
