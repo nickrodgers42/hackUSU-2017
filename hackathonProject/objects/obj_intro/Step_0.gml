@@ -29,3 +29,7 @@ if (keyboard_check(vk_space)) {
 if (holdspace > 80) {
     fadeout = 1;
 }
+
+if (a == 1 && fadeout == 1) {
+    room_goto_next();
+}

@@ -10,4 +10,12 @@ draw_set_valign(fa_top);
 draw_set_font(joystix);
 draw_text(512, 600, print);
 
+if (holdspace > 0) {
+    draw_set_alpha(wave(0.2, 0.8, 2, 0));
+    draw_set_font(joystix2);
+    draw_text(880, 680, "Hold space to skip");
+    draw_set_alpha(1);
+    draw_set_font(joystix);
+}
+
 draw_sprite_ext(spr_pixel,0,0,0,1024, 720, 0, c_black, a);
