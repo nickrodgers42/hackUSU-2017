@@ -3,12 +3,14 @@
 var max_length = 300;
 image_angle = point_direction(x, y, mouse_x, mouse_y);
 
-
-
 for (var i = 0; i < max_length; i++) {
     lx = x + lengthdir_x(i, direction);
     ly = y + lengthdir_y(i, direction);
     if (collision_point(lx, ly, obj_wall, false, true)) {
+        break;
+    }
+    else if (collision_point(lx, ly, obj_enemy, false, true)) {
+        enemyId = collision_point(lx, ly, obj_enemy, false, true);
         break;
     }
 }

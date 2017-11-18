@@ -127,14 +127,6 @@
             }
         },
         {
-            "Key": "4cdc22b8-1e21-45d6-bddb-23f09bb94398",
-            "Value": {
-                "id": "326aa6a5-d66c-4f60-8cb7-61b954676859",
-                "resourcePath": "sprites\\spr_laser2\\spr_laser2.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "50b30195-37e1-4137-b54b-81625dce74cc",
             "Value": {
                 "id": "3e98d823-4731-4424-bdec-2171800c2f27",
@@ -228,14 +220,6 @@
                 "id": "1a1da8f5-bf73-4902-bf00-fde51beea469",
                 "resourcePath": "sprites\\spr_giraffe\\spr_giraffe.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "9d40ec3f-6e8f-4e37-b15c-79843a570907",
-            "Value": {
-                "id": "9a0d581a-ad2b-4ca7-8ced-0d8eaca68935",
-                "resourcePath": "scripts\\draw_laser\\draw_laser.yy",
-                "resourceType": "GMScript"
             }
         },
         {
@@ -375,6 +359,14 @@
             }
         },
         {
+            "Key": "e46c493b-236a-4cdd-ba37-871a89cfa181",
+            "Value": {
+                "id": "c57cae2a-4bfc-47fe-8d18-b4268e95872c",
+                "resourcePath": "objects\\obj_enemy\\obj_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e784cabf-7f97-475b-939b-b22986f62556",
             "Value": {
                 "id": "ec145833-6dda-4e22-8222-9e2efef2551f",
@@ -448,7 +440,7 @@
         }
     ],
     "script_order": [
-        "9d40ec3f-6e8f-4e37-b15c-79843a570907"
+        
     ],
     "tutorial": ""
 }
