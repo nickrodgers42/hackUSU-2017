@@ -1,10 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-knockBackX = (other.x > x)?(20):(-20);
-knockBackY = (other.y > y)?(20):(-20);
+knockBackX = (other.x > x)?("D"):("A");
+knockBackY = (other.y > y)?("S"):("W");
 
 with(other) {
     hp -= 5;
-    x += other.knockBackX; 
-    y += other.knockBackY;
+    keyboard_key_press(ord(other.knockBackX));
+    keyboard_key_release(ord(other.knockBackX));
+    keyboard_key_press(ord(other.knockBackY));
+    keyboard_key_release(ord(other.knockBackY));
 }
