@@ -8,22 +8,22 @@ var yPos = true;
 if (instance_exists(obj_player)) {
     if (x < obj_player.x) {
         if (!place_meeting(x + 2, y, obj_wall)) {
-            x++;
+            x += spd;
         }
     }
     else if (x > obj_player.x) {
         if (!place_meeting(x - 2, y, obj_wall)) {
-            x--;
+            x -= spd;
         }
     }
     if (y < obj_player.y) {
         if (!place_meeting(x, y+2, obj_wall)) {
-            y++;
+            y+= spd;
         }
     }
     else if (y > obj_player.y) {
         if (!place_meeting(x, y-2, obj_wall)) {
-            y--;
+            y-= spd;
         }
     }
 }
