@@ -1,3 +1,4 @@
 /// @description 
+event_inherited();
 hp = 15;
-spd = 1.5;
+spd = 1;
