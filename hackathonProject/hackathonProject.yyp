@@ -231,6 +231,14 @@
             }
         },
         {
+            "Key": "84ec8be9-1da7-4b4b-a2b9-3d0624ccdc51",
+            "Value": {
+                "id": "f2130444-01eb-4009-99f9-2625326f7c73",
+                "resourcePath": "objects\\obj_controller\\obj_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8adc3f59-652d-4cff-a1f7-d061107382b6",
             "Value": {
                 "id": "4f2c903e-4c23-4618-90b0-b36fe4924a4f",
@@ -435,6 +443,14 @@
             "Value": {
                 "id": "b679a6d9-b0e6-4d28-b34e-7302bdca589c",
                 "resourcePath": "sprites\\spr_explosion\\spr_explosion.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e3aad94e-4868-4b16-ab22-674af6f917a0",
+            "Value": {
+                "id": "020e721d-f698-471b-89a4-d06dc0bb4565",
+                "resourcePath": "sprites\\spr_laserBlast\\spr_laserBlast.yy",
                 "resourceType": "GMSprite"
             }
         },

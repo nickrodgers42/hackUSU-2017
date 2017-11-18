@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 camera_set_view_pos(view_camera[0], xpos, 180);
-xpos = max(xpos - 0.3, 0);
+xpos = max(xpos - 1, 0);
 
 if (!fadeout) {
     a = max(a-0.01, 0);
