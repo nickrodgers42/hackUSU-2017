@@ -3,5 +3,5 @@
 event_inherited();
 hp = 30;
 image_speed = 3;
-spd = 5;
+spd = 3;
 enemyPts = 15;
