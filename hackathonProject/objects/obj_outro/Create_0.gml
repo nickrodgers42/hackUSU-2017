@@ -17,5 +17,5 @@ strings[1] = "collected all the keys,";
 strings[2] = "and now is a full-fledged monk brother,";
 strings[3] = "so now the monks will tell him\n what was making that noise";
 strings[4] = "I bet you'd like to know too.";
-strings[5] = "But,";
+strings[5] = "Well, I'm sorry but,";
 strings[6] = "I can't tell you because you're not a monk.";

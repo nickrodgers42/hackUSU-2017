@@ -11,7 +11,9 @@ else {
 }
 
 l += 0.5;
-
+if (next == 7 && !audio_is_playing(snd_strange)) {
+    audio_play_sound(snd_strange, 0,false);
+}
 if (l > string_length(str) + 60 && next < 2) {
     l = 0;
     next++;

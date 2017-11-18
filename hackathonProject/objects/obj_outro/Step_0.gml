@@ -10,6 +10,10 @@ else {
 
 l += 0.5;
 
+if (next == 6 && !audio_is_playing(snd_strange)) {
+    audio_play_sound(snd_strange, 0, false);
+}
+
 if (l > string_length(str) + 60 && next < array_length_1d(strings) - 1) {
     l = 0;
     next++;
