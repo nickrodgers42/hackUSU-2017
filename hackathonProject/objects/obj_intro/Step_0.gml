@@ -12,7 +12,7 @@ else {
 
 l += 0.5;
 
-if (l > string_length(str) + 80 && next < array_length_1d(strings) - 1) {
+if (l > string_length(str) + 60 && next < array_length_1d(strings) - 1) {
     l = 0;
     next++;
     if (next == array_length_1d(strings)-1) {

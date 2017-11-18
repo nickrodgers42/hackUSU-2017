@@ -4,3 +4,4 @@ image_index = 0;
 cooldown = 0;
 cooldownRate = 5;
 hp = 50;
+numKeys = 0;

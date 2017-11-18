@@ -7,3 +7,6 @@ if (mouse_check_button(mb_left) && cooldown < 1)
 if (cooldown > 0) {
     cooldown--;
 }
+if (x < 0 || x > room_width || y < 0 || y > room_height) {
+    room_goto_previous();
+}
