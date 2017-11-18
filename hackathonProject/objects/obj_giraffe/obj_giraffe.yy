@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_giraffe",
     "eventList": [
-        
+        {
+            "id": "70303c10-7a77-44f3-9c0f-6439142364f8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "cc528f01-df43-45ed-8e4e-4ddda6dc7bdc"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
