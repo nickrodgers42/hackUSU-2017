@@ -24,6 +24,9 @@ else if (l > string_length(str) + 60 && next < 5) {
     next++;
 }
 else if (l > string_length(str) + 60 && next < array_length_1d(strings) - 1) {
+    if (room != rm_cutScene3) {
+        room_goto(rm_cutScene3);
+    }
     l = 0;
     next++;
     if (next == array_length_1d(strings)-1) {
@@ -42,4 +45,8 @@ if (holdspace > 80) {
 }
 if (a == 1 && fadeout == 1) {
     room_goto_next();
+    instance_destroy();
+}
+if (room > 2) {
+    instance_destroy();
 }

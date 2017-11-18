@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "0887d1f0-1d48-4a7a-a5ea-7bae3605c02e",
+            "Value": {
+                "id": "8466ba16-1581-4456-86ca-706bff25887a",
+                "resourcePath": "rooms\\rm_3\\rm_3.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "0a0b8fbb-fbe3-4ae4-812f-0a7e438252a6",
             "Value": {
                 "id": "75247c02-69c2-49d0-949d-c706daf24699",
@@ -76,6 +84,14 @@
                 "id": "76b14036-6ac2-44c8-8ab9-2fc550b805ac",
                 "resourcePath": "sprites\\spr_dungeon1\\spr_dungeon1.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "144e43fd-66ae-4131-a14c-8f0c87804176",
+            "Value": {
+                "id": "b5b85aee-dc65-461f-9e30-71792b3277bd",
+                "resourcePath": "rooms\\rm_cutScene3\\rm_cutScene3.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -396,14 +412,6 @@
                 "id": "ebbf5a0b-a4da-44c9-9d6e-04b595a74f34",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
-            }
-        },
-        {
-            "Key": "afe8a80c-d936-4e45-b23c-465e0228e51c",
-            "Value": {
-                "id": "5aa99dc5-b951-4ee1-9ecb-69347e1685af",
-                "resourcePath": "rooms\\rm_cutScene1\\rm_cutScene1.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
