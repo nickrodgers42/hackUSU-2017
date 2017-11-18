@@ -12,7 +12,18 @@ else {
 
 l += 0.5;
 
-if (l > string_length(str) + 60 && next < array_length_1d(strings) - 1) {
+if (l > string_length(str) + 60 && next < 2) {
+    l = 0;
+    next++;
+}
+else if (l > string_length(str) + 60 && next < 5) {
+    if (room != rm_cutScene2) {
+        room_goto(rm_cutScene2);
+    }
+    l = 0;
+    next++;
+}
+else if (l > string_length(str) + 60 && next < array_length_1d(strings) - 1) {
     l = 0;
     next++;
     if (next == array_length_1d(strings)-1) {
@@ -29,7 +40,6 @@ if (keyboard_check(vk_space)) {
 if (holdspace > 80) {
     fadeout = 1;
 }
-
 if (a == 1 && fadeout == 1) {
     room_goto_next();
 }
